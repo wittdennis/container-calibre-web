@@ -1,0 +1,10 @@
+name: pr
+
+on: [pull_request]
+
+jobs:
+  build:
+    uses: wittdennis/pipelines/.github/workflows/container-image-build.yaml@767c74fb5809ef0cd9fc398630d5d21d81532faa # 2.0.37
+    with:
+      image-name: calibre-web
+      create-artifacts: false

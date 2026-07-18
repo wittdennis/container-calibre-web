@@ -1,0 +1,12 @@
+name: github-release
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 0"
+
+jobs:
+  release:
+    uses: wittdennis/pipelines/.github/workflows/cog-release.yaml@767c74fb5809ef0cd9fc398630d5d21d81532faa # 2.0.37
+    secrets:
+      release-token: ${{ secrets.RELEASE_TOKEN }}

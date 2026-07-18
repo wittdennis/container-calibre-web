@@ -1,0 +1,16 @@
+# Nothing here is COPY'd into the image; keep the build context minimal.
+.git
+.gitignore
+.github
+.dockerignore
+Dockerfile
+README.md
+LICENSE
+renovate.json
+*.sh
+*.md
+
+# Editor / OS cruft
+.vscode
+.idea
+.DS_Store

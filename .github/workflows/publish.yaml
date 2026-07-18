@@ -1,0 +1,25 @@
+name: publish-image
+
+on:
+  workflow_dispatch:
+  release:
+    types: published
+
+jobs:
+  publish:
+    uses: wittdennis/pipelines/.github/workflows/container-image-publish.yaml@767c74fb5809ef0cd9fc398630d5d21d81532faa # 2.0.37
+    permissions:
+      packages: write
+      contents: read
+    with:
+      image-name: calibre-web
+      registries: |
+        docker.io
+        ghcr.io
+      registry-namespaces: |
+        denniswitt
+        wittdennis
+    secrets:
+      registry-passwords: |
+        ${{ secrets.DOCKER_REGISTRY_TOKEN }}
+        ${{ secrets.GITHUB_TOKEN }}
