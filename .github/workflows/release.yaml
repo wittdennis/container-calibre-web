@@ -2,11 +2,17 @@ name: github-release
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * 0"
+    inputs:
+      version:
+        description: Use auto to auto calculate version
+        default: auto
+        required: false
+        type: string
 
 jobs:
   release:
     uses: wittdennis/pipelines/.github/workflows/cog-release.yaml@767c74fb5809ef0cd9fc398630d5d21d81532faa # 2.0.37
+    with:
+      version: ${{ inputs.version }}
     secrets:
       release-token: ${{ secrets.RELEASE_TOKEN }}
