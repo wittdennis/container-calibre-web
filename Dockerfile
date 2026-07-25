@@ -101,8 +101,8 @@ RUN pip install --no-cache-dir "calibreweb==${CALIBRE_WEB_VERSION}"
 COPY --from=calibre /opt/calibre /opt/calibre
 
 # Fixed non-root user; ownership of the mounts is handled at runtime via fsGroup.
-RUN groupadd -g 1000 abc \
-    && useradd -u 1000 -g 1000 -d /config -s /usr/sbin/nologin abc \
+RUN groupadd -g 1000 calibre \
+    && useradd -u 1000 -g 1000 -d /config -s /usr/sbin/nologin calibre \
     && mkdir -p /config /books \
     && chown -R 1000:1000 /config /books
 
