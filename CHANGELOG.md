@@ -2,6 +2,16 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.0.1](https://github.com/wittdennis/container-calibre-web/compare/b438f6a60912bf7bf0bdebda4bbc4e3027b3d53a..1.0.1) - 2026-07-25
+#### Bug Fixes
+- rename runtime user to calibre - ([c956cd9](https://github.com/wittdennis/container-calibre-web/commit/c956cd91550495bfdbe58ef483588e21d255bf9d)) - Dennis Witt
+#### Continuous Integration
+- (**deps**) update wittdennis/pipelines action to v2.0.40 - ([a81f6ec](https://github.com/wittdennis/container-calibre-web/commit/a81f6ecc70499402b32de7e13cbe4355d94b2472)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.39 - ([2d83bae](https://github.com/wittdennis/container-calibre-web/commit/2d83bae8487e34ca013daa055c761f1b489e2693)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.38 - ([b438f6a](https://github.com/wittdennis/container-calibre-web/commit/b438f6a60912bf7bf0bdebda4bbc4e3027b3d53a)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.0.0](https://github.com/wittdennis/container-calibre-web/compare/8655ad7fa3d09b1d419b4a06880b8fcbbdd7e082..1.0.0) - 2026-07-20
 #### Continuous Integration
 - version for release - ([17bbc58](https://github.com/wittdennis/container-calibre-web/commit/17bbc5823c09c04cf6e777a548a770aceaceb549)) - Dennis Witt
