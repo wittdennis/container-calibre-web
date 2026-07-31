@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.0.2](https://github.com/wittdennis/container-calibre-web/compare/247b9524d6439645dab0656b3be65d89ea89a516..1.0.2) - 2026-07-31
+#### Bug Fixes
+- (**deps**) update dependency calibre to v9.12.0 - ([dada783](https://github.com/wittdennis/container-calibre-web/commit/dada7836dbba21cd5e0c28ac4fda70041be354a3)) - wittdennis-renovate[bot]
+#### Continuous Integration
+- (**deps**) update wittdennis/pipelines action to v2.0.41 - ([247b952](https://github.com/wittdennis/container-calibre-web/commit/247b9524d6439645dab0656b3be65d89ea89a516)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.0.1](https://github.com/wittdennis/container-calibre-web/compare/b438f6a60912bf7bf0bdebda4bbc4e3027b3d53a..1.0.1) - 2026-07-25
 #### Bug Fixes
 - rename runtime user to calibre - ([c956cd9](https://github.com/wittdennis/container-calibre-web/commit/c956cd91550495bfdbe58ef483588e21d255bf9d)) - Dennis Witt
