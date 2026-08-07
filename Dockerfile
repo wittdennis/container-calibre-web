@@ -18,7 +18,7 @@ ARG PYTHON_VERSION=3.12
 FROM docker.io/library/python:${PYTHON_VERSION}-slim-bookworm AS calibre
 
 # renovate: datasource=github-releases depName=calibre packageName=kovidgoyal/calibre
-ARG CALIBRE_VERSION=9.12.0
+ARG CALIBRE_VERSION=9.13.0
 # Provided automatically for the target platform (amd64 | arm64).
 ARG TARGETARCH
 
