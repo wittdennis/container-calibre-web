@@ -49,7 +49,7 @@ RUN set -eux; \
 FROM docker.io/library/python:${PYTHON_VERSION}-slim-bookworm
 
 # renovate: datasource=pypi packageName=calibreweb
-ARG CALIBRE_WEB_VERSION=0.6.26
+ARG CALIBRE_WEB_VERSION=0.6.27
 
 ENV \
     # Calibre-Web: settings db (app.db), cache and port. Defaults for these point
