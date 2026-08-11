@@ -11,8 +11,32 @@ rootless or on a read-only root filesystem.
 - **Read-only root filesystem** — the process only writes to `/config`, `/books`
   and `/tmp`, so the rootfs can be mounted read-only.
 - **Bundled Calibre** — `ebook-convert` runs headless (`QT_QPA_PLATFORM=offscreen`),
-  no X server required.
+  no X server required, PDF output included.
+- **Complete feature set** — every Calibre-Web extra is installed and every
+  optional helper binary is bundled, so nothing has to be added at runtime.
 - **Multi-arch** — `linux/amd64` and `linux/arm64`.
+
+### What's included
+
+Calibre-Web is installed with all of its optional extras (`comics`, `gdrive`,
+`gmail`, `goodreads`, `kobo`, `ldap`, `metadata`, `oauth`), which covers LDAP and
+OAuth login, Google Drive and Gmail integration, Kobo sync, comic support and all
+metadata providers (Amazon, ComicVine, Douban, Google, LubimyCzytac, Scholar).
+
+The helper binaries Calibre-Web looks for are bundled and auto-detected on first
+start, so the paths under *Admin → Basic Configuration → External Binaries* are
+filled in already:
+
+| Tooling | Location | Enables |
+|---------|----------|---------|
+| Calibre (`ebook-convert`, `calibredb`) | `/opt/calibre` | Format conversion, send-to-device |
+| kepubify | `/opt/kepubify` | Kobo `kepub` conversion |
+| ImageMagick + Ghostscript | system | Cover extraction from PDF and comics |
+| `unar` | system | `CBR` comic archives |
+
+`unar` is used instead of `unrar` because `unrar` is non-free and the free
+`unrar-free` fails `rarfile`'s tool check; `rarfile` falls back to `unar` on its
+own, and it reads both RAR3 and RAR5.
 
 ## Images
 
@@ -95,8 +119,9 @@ directory, which is what makes the read-only rootfs work.
 podman build -t ghcr.io/wittdennis/calibre-web:local .
 ```
 
-Bundled versions (Python base image, Calibre and Calibre-Web) are pinned in the
-`Dockerfile` and kept up to date by [Renovate](https://docs.renovatebot.com/).
+Bundled versions (Python base image, Calibre, Calibre-Web and kepubify) are
+pinned in the `Dockerfile` and kept up to date by
+[Renovate](https://docs.renovatebot.com/).
 
 ## License
 
