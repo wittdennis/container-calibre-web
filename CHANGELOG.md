@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.1.0](https://github.com/wittdennis/container-calibre-web/compare/a19f3e564cf7c6493a29e80e35cc448cc1044fe7..1.1.0) - 2026-08-11
+#### Features
+- ensure the full feature set of calibre-web is present - ([db3e62c](https://github.com/wittdennis/container-calibre-web/commit/db3e62c2b7909d711cc465481fc3d1a37880ee04)) - Dennis Witt
+#### Bug Fixes
+- (**deps**) update dependency calibreweb to v0.6.27 - ([a19f3e5](https://github.com/wittdennis/container-calibre-web/commit/a19f3e564cf7c6493a29e80e35cc448cc1044fe7)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.0.3](https://github.com/wittdennis/container-calibre-web/compare/fa3633a9848903db8fdb38e993c32c7dcc003017..1.0.3) - 2026-08-07
 #### Bug Fixes
 - (**deps**) update dependency calibre to v9.13.0 - ([2dfd886](https://github.com/wittdennis/container-calibre-web/commit/2dfd886294824e4de4df5d114df0cabfae35cad3)) - wittdennis-renovate[bot]
