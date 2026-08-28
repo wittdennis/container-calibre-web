@@ -31,7 +31,7 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 # renovate: datasource=github-releases depName=calibre packageName=kovidgoyal/calibre
-ARG CALIBRE_VERSION=9.13.0
+ARG CALIBRE_VERSION=9.14.0
 
 RUN set -eux; \
     case "${TARGETARCH}" in \
