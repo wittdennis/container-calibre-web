@@ -2,6 +2,19 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.1.1](https://github.com/wittdennis/container-calibre-web/compare/cd3c131de00d8c15f8468ffb39e6c83bb292dc8e..1.1.1) - 2026-08-29
+#### Bug Fixes
+- (**deps**) update dependency calibre to v9.14.0 - ([b44327b](https://github.com/wittdennis/container-calibre-web/commit/b44327b72993cd85e278abe33c44aee3a0bb38bc)) - wittdennis-renovate[bot]
+#### Continuous Integration
+- (**deps**) update wittdennis/pipelines action to v2.0.48 - ([0c51780](https://github.com/wittdennis/container-calibre-web/commit/0c5178073f2e88200a474f8f8ad348a87eab4d4c)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.47 - ([db0140b](https://github.com/wittdennis/container-calibre-web/commit/db0140bd55637a769761f7a2b9a36efdec36f122)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.46 - ([5c12a5e](https://github.com/wittdennis/container-calibre-web/commit/5c12a5ee47d528d6518ccb5032b6d3189e0dd6ed)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.45 - ([f7f3b01](https://github.com/wittdennis/container-calibre-web/commit/f7f3b01e10a50371be3ee091f50711b906083fef)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.44 - ([3b060ae](https://github.com/wittdennis/container-calibre-web/commit/3b060ae7501a1e2b21d5ff87a05547090c81c3b7)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.43 - ([cd3c131](https://github.com/wittdennis/container-calibre-web/commit/cd3c131de00d8c15f8468ffb39e6c83bb292dc8e)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.1.0](https://github.com/wittdennis/container-calibre-web/compare/a19f3e564cf7c6493a29e80e35cc448cc1044fe7..1.1.0) - 2026-08-11
 #### Features
 - ensure the full feature set of calibre-web is present - ([db3e62c](https://github.com/wittdennis/container-calibre-web/commit/db3e62c2b7909d711cc465481fc3d1a37880ee04)) - Dennis Witt
