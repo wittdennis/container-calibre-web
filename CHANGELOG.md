@@ -2,6 +2,20 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.1.2](https://github.com/wittdennis/container-calibre-web/compare/46790738fb5c56dea209c9b7b18a0eaad8f63811..1.1.2) - 2026-09-18
+#### Bug Fixes
+- (**deps**) update dependency calibre to v9.15.0 - ([115b4f1](https://github.com/wittdennis/container-calibre-web/commit/115b4f1c572bfc7fea1a2dc7acb5909ed25a80a1)) - wittdennis-renovate[bot]
+#### Continuous Integration
+- (**deps**) update wittdennis/pipelines action to v2.0.57 - ([cd84463](https://github.com/wittdennis/container-calibre-web/commit/cd8446388cc551e46f3c66026e50209c1ff390b6)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.56 - ([589dc50](https://github.com/wittdennis/container-calibre-web/commit/589dc50c20d0f6c4d6dfa3fb89af5437c85c18e7)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.54 - ([e6cff37](https://github.com/wittdennis/container-calibre-web/commit/e6cff3759664e655ec1ec6621be8f0d18613f1a9)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.53 - ([2368f5e](https://github.com/wittdennis/container-calibre-web/commit/2368f5ee0a1be6fa32a8751b4ccd25e21df6fff5)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.52 - ([f2c4912](https://github.com/wittdennis/container-calibre-web/commit/f2c4912c00e561ae1c80cc6bc6752508944a04c4)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.50 - ([ceecf98](https://github.com/wittdennis/container-calibre-web/commit/ceecf9859f83d53ac52273a11a2a1a08c8960de3)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.49 - ([4679073](https://github.com/wittdennis/container-calibre-web/commit/46790738fb5c56dea209c9b7b18a0eaad8f63811)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.1.1](https://github.com/wittdennis/container-calibre-web/compare/cd3c131de00d8c15f8468ffb39e6c83bb292dc8e..1.1.1) - 2026-08-29
 #### Bug Fixes
 - (**deps**) update dependency calibre to v9.14.0 - ([b44327b](https://github.com/wittdennis/container-calibre-web/commit/b44327b72993cd85e278abe33c44aee3a0bb38bc)) - wittdennis-renovate[bot]
