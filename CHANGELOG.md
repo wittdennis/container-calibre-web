@@ -2,6 +2,16 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.1.3](https://github.com/wittdennis/container-calibre-web/compare/f9bbc667a2eadaa0ebadb1218f995eaad62d070d..1.1.3) - 2026-10-10
+#### Bug Fixes
+- (**deps**) update dependency calibre to v9.16.0 - ([10202f1](https://github.com/wittdennis/container-calibre-web/commit/10202f19308d6ed756977844f53ebe72e13ed5bd)) - wittdennis-renovate[bot]
+#### Continuous Integration
+- (**deps**) update wittdennis/pipelines action to v2.0.61 - ([ddf9cc7](https://github.com/wittdennis/container-calibre-web/commit/ddf9cc7a6321fdfc7fd0be49bbe6aaa16593b283)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.60 - ([85ebeb5](https://github.com/wittdennis/container-calibre-web/commit/85ebeb5ad71da0cdc86a96d786cdfa184e007dfc)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.59 - ([f9bbc66](https://github.com/wittdennis/container-calibre-web/commit/f9bbc667a2eadaa0ebadb1218f995eaad62d070d)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.1.2](https://github.com/wittdennis/container-calibre-web/compare/46790738fb5c56dea209c9b7b18a0eaad8f63811..1.1.2) - 2026-09-18
 #### Bug Fixes
 - (**deps**) update dependency calibre to v9.15.0 - ([115b4f1](https://github.com/wittdennis/container-calibre-web/commit/115b4f1c572bfc7fea1a2dc7acb5909ed25a80a1)) - wittdennis-renovate[bot]
