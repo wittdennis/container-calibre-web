@@ -49,7 +49,7 @@ RUN set -eux; \
     HOME=/config /opt/calibre/calibre_postinstall || true
 
 # renovate: datasource=github-releases depName=kepubify packageName=pgaskin/kepubify
-ARG KEPUBIFY_VERSION=4.0.4
+ARG KEPUBIFY_VERSION=5.0.0
 
 # Calibre-Web only auto-detects /opt/kepubify/kepubify-linux-64bit, so the arm64
 # build has to be installed under that name too (see cps/config_sql.py).
