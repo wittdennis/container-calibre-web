@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.1.6](https://github.com/wittdennis/container-calibre-web/compare/3a181c5c70c8d3c1e061af7d158e93408a70248a..1.1.6) - 2026-11-09
+#### Bug Fixes
+- (**deps**) update dependency kepubify to v5 - ([3a181c5](https://github.com/wittdennis/container-calibre-web/commit/3a181c5c70c8d3c1e061af7d158e93408a70248a)) - wittdennis-renovate[bot]
+#### Continuous Integration
+- (**deps**) update wittdennis/pipelines action to v2.0.71 - ([4aedbf7](https://github.com/wittdennis/container-calibre-web/commit/4aedbf7885e3172953164cc4af8feeb1311650e2)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.1.5](https://github.com/wittdennis/container-calibre-web/compare/3b6eae18ab9a6d60be63be1872af7bc2fa04fbee..1.1.5) - 2026-11-06
 #### Bug Fixes
 - (**deps**) update dependency calibre to v9.18.0 - ([aeab9f8](https://github.com/wittdennis/container-calibre-web/commit/aeab9f83e5fd218f4cbe2798cafa8aac1a621cb6)) - wittdennis-renovate[bot]
